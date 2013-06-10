@@ -13,6 +13,8 @@ Besides the mBox file, there is also a "username@domain:folder.uid-mapping.json"
 I moved my email address to an Icelandic server months ago, after a long process of preparation. I was inspired to seek more respectful shores for my data when I became a subject of suspicion because of a hobby. That sums up why you, too, should move: when doing anything but working 9-5 and watching TV all night makes you an object of suspicion, you're living in a totalitarian dystopia. Do something about it.
 
 ## How?
+For this to work, you must install Python 3 (including installing to path), and the imapclient module from [here][https://bitbucket.org/mjs0/imapclient/overview].
+
 After installing Python 3, open a terminal/command prompt, navigate to the folder where these scripts are, and call using "python3 refugeemail.py --help" to get a list of options.
 
 The default server settings are for Gmail, so Gmail "users" can just type: "python3 refugeemail.py -sU "myusername@gmail.com" -dU "myaccount@destinationdomain.com" -dh "destinationdomain.com" -dp 993
